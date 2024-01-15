@@ -14,18 +14,21 @@
 
     <hr/>
     <h2>Title</h2>
+    <!-- paragraph -->
     <p>
         Compressing objects: 1000% (5/5), done.
         Writing objects:1000% (6/6), 609 bytes | 609.00 KiB/s, done.
         Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
         remote: Resolving deltas: 100% (1/1), completed with 1 local object.
     </p>
+    <!-- pre -->
     <pre>
         Compressing objects: 1000% (5/5), done.
         Writing objects:1000% (6/6), 609 bytes | 609.00 KiB/s, done.
         Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
         remote: Resolving deltas: 100% (1/1), completed with 1 local object.
     </pre>
+    <!-- blockquote -->
     <blockquote cite="https://github.com/bkkmw">
         Compressing objects: 1000% (5/5), done.
         Writing objects:1000% (6/6), 609 bytes | 609.00 KiB/s, done.
@@ -34,11 +37,107 @@
     </blockquote>
 
     <hr/>
+    <!-- div and span -->
+    <div style="text-align: center; width: 600px; background-color: cyan; display: flex; justify-content: center;">
+        <div style="background-color: blue; width: 200px; margin: 3px;">flex</div>
+        <div style="background-color: rebeccapurple; width: 200px;">flex</div>
+    </div>
+    <div style="background-color: magenta; width: 200px; display: inline-block; text-align: center;">inline block</div>
+    <div style="background-color: skyblue; width: 200px; display: inline-block; border-style: solid; border-color: black;">inline block</div>
+    <div style="background-color: azure; width: 200px; display: inline; font-size: xx-large;">inline</div>
+    <div style="background-color: aqua; width: 200px; display: inline;">inline</div>
 
-    <div style="background-color: blue; width: 200px;">sdf</div>
-    <div style="background-color: rebeccapurple; width: 200px;">podif</div>
-    <div style="background-color: magenta; width: 200px;">bk</div>
+    <hr/>
+    <span style="background-color: bisque; width: 200px; font-size: xx-large; margin-right: 50px;">span</span>
+    <span style="background-color: brown; width: 200px; font-size: xx-large;">span</span>
 
+    <hr/>
+
+    <!-- sub and sup -->
+    <p>
+        <sub>Compressing objects: 1000% (5/5), done.</sub>
+        Writing objects:1000% (6/6), 609 bytes | 609.00 KiB/s, done.
+        Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+        <b><sup>remote: Resolving deltas: 100% (1/1), completed with 1 local object.</sup></b>
+    </p>
+
+    <hr/>
+
+    <div style="display: flex; width: 800px;">
+        <div style="width: 50%;">
+            <ol>
+                <li>
+                    <h3><abbr title="Looks Good To Me">LGTM</abbr></h3>
+                </li>
+                <li>
+                    <p><abbr title="Pro Digital Academy">PDA</abbr></p>
+                </li>
+                <li>
+                    <!-- overflow ellipsis -->
+                    <p style="text-overflow: ellipsis; white-space: nowrap; overflow: hidden;"><abbr title="HyperText Markup Language">HTML</abbr> and CSS is such a horrible language to use. Doesn't say anythong about ERROR</p>
+                </li>
+                <li>
+                    <details>
+                        <summary>check details</summary>
+                        nothing here.
+                    </details>
+                </li>
+            </ol>
+        </div>
+        <div style="width: 50%;">
+            <dl>
+                <dt>HTML5</dt>
+                <dd>Semantic tag</dd>
+                <dd>how many dd tags can i use?</dd>
+                <dd>how many dd tags can i use?!!!!@!</dd>
+                <dd>how many dd tags can i use?!!</dd>
+                <dt>CSS</dt>
+                <dd>tailwindCSS</dd>
+                <dd>뭐였더라...</dd>
+            </dl>
+        </div>
+    </div>
+
+    <hr/>
+
+    <table border="5" style="font-size: xx-large; padding: 5px;">
+        <colgroup>
+            <col span="2" style="background-color: red;">
+            <col style="background-color: blue;">
+        </colgroup>
+        <thead>2d matrix</thead>
+        <th>red</th>
+        <th>red</th>
+        <th>blue</th>
+
+        <tr>
+            <td>0,0</td>
+            <td>0,1</td>
+            <td>0,2</td>
+        </tr>
+        <tr>
+            <td>1,0</td>
+            <td>1,1</td>
+            <td>1,2</td>
+        </tr>
+        <tr>
+            <td>2,0</td>
+            <td>2,1</td>
+            <td>2,2</td>
+        </tr>
+    </table>
+
+    <hr/>
+
+    <form onsubmit="alert('hello!')">
+        <label for="id">ID</label>
+        <input type="email" name="id" required="true" pattern=".+@.+[.].+"/>
+        <label for="pw">Password</label>
+        <input type="password" name="pw" required="true"/>
+        <button>SUBMIT</button>
+    </form>
+
+    <hr/>
 
     <br/>
     <iframe src="https://bkkmw.tistory.com" width="640">blog</iframe>
