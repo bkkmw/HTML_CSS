@@ -52,6 +52,7 @@ header {
     font-style: normal;
     font-weight: 600;
     line-height: 150%; /* 36px */
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
 }
 
 header h1 {
@@ -62,6 +63,22 @@ header h1 {
     letter-spacing: -1.28px;
     font-size: 64px;
     margin-bottom: 50px;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+    
 }
 
 header h1 strong {
@@ -175,4 +192,29 @@ header h1 strong {
     height: 120px;
     padding: 5px;
     margin: 20px 40px;
+}
+
+.fixedBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    right: 100px;
+    bottom: 40px;
+
+    width: 165px;
+    height: 88px;
+
+    border-radius: 50px;
+    border: 10px solid #BBD5F7;
+    background: linear-gradient(98deg, #BED3FF -10.83%, #D2F3E5 51.79%, #FFEBD9 110.76%);
+
+    color: rgba(64, 57, 48, 0.80);
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
 }
