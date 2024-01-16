@@ -1,3 +1,5 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
 nav {
     /* allign items with gap */
     display: flex;
@@ -57,11 +59,12 @@ header h1 {
     margin-bottom: 50px;
 }
 
-header h1 em {
+header h1 strong {
     background: linear-gradient(99deg, #001F8F 3.58%, rgba(36, 255, 203, 0.50) 90.34%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    margin-left: 2px;
 }
 
 .headerBtns {
