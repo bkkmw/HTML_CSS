@@ -1,5 +1,10 @@
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
 
+body {
+    margin: 0;
+    /* transform: scale(0.75); */
+}
+
 nav {
     /* allign items with gap */
     display: flex;
@@ -97,4 +102,39 @@ header h1 strong {
     border-radius: 500px;
     border: 10px solid #BCF2F9;
     /* background: url("https://plus.unsplash.com/premium_photo-1674688194029-17dda3aaf779?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmxhY2t8ZW58MHx8MHx8fDA%3D"), lightgray 50% / cover no-repeat; */
+}
+
+.introduction {
+    position: relative;
+    white-space: pre;
+    padding: 100px 120px;
+    font-family: 'Pretendard';
+    background: linear-gradient(96deg, rgba(189, 210, 255, 0.40) 1.72%, rgba(116, 224, 215, 0.40) 158.93%);
+}
+
+.introduction h2 {
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; /* 50px */
+    letter-spacing: -0.8px;
+    margin: 0;
+}
+
+.introduction p {
+    color: #333;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 30px */
+    margin: 0;
+}
+
+.introduction img {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 120px;
+    right: 300px;
 }
