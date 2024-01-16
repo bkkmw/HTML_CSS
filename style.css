@@ -27,6 +27,8 @@ header {
     padding: 100px 120px 100px 120px;
     display: flex;
     font-family: 'Pretendard';
+    max-width: 1290px;
+    margin: 0 auto;
 }
 
 .headerLeft {
@@ -118,7 +120,9 @@ header h1 strong {
     white-space: pre;
     padding: 100px 120px;
     font-family: 'Pretendard';
-    background: linear-gradient(96deg, rgba(189, 210, 255, 0.40) 1.72%, rgba(116, 224, 215, 0.40) 158.93%);
+    /* background: linear-gradient(96deg, rgba(189, 210, 255, 0.40) 1.72%, rgba(116, 224, 215, 0.40) 158.93%); */
+    max-width: 1290px;
+    margin: 0 auto;
 }
 
 .introduction h2 {
@@ -153,6 +157,8 @@ header h1 strong {
     align-content: center;
     padding: 100px 120px;
     font-family: 'Pretendard';
+    max-width: 1290px;
+    margin: 0 auto;
 }
 
 .techStack h2 {
