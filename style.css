@@ -138,3 +138,41 @@ header h1 strong {
     top: 120px;
     right: 300px;
 }
+
+.techStack {
+    text-align: center;
+    align-content: center;
+    padding: 100px 120px;
+    font-family: 'Pretendard';
+}
+
+.techStack h2 {
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 65% */
+    letter-spacing: -0.8px;
+}
+
+.techStack p {
+    color: #333;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 130% */
+}
+
+.techImgs {
+    margin-top: 80px;
+    width: 100%;
+}
+
+.techImg {
+    width: 120px;
+    height: 120px;
+    padding: 5px;
+    margin: 20px 40px;
+}
