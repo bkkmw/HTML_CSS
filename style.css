@@ -119,7 +119,7 @@ header h1 strong {
 
 .introduction {
     position: relative;
-    white-space: pre;
+    white-space: pre-line;
     padding: 100px 120px;
     font-family: 'Pretendard';
     /* background: linear-gradient(96deg, rgba(189, 210, 255, 0.40) 1.72%, rgba(116, 224, 215, 0.40) 158.93%); */
