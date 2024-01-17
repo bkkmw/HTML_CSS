@@ -128,7 +128,7 @@ header h1 strong {
     width: 80vw;
 }
 
-.projectCardLeft h2 {}
+/* .projectCardLeft h2 {} */
 
 .projectCardLeft h6 {
     margin-bottom: 10px;
@@ -142,7 +142,7 @@ header h1 strong {
     -webkit-box-orient: vertical;
 }
 
-.projectCardLeft a {}
+/* .projectCardLeft a {} */
 
 /* 24 14 12 */
 .commentList {
