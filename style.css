@@ -311,6 +311,15 @@ header h1 strong {
     display: none;
 }
 
+.emptyCommentCard {
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+    margin: 15px 40px;
+
+    visibility: hidden;
+}
+
 .commentCard {
     display: flex;
     flex-direction: column;

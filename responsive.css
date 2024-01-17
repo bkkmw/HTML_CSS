@@ -161,6 +161,10 @@ header h1 strong {
     justify-content: center;
 }
 
+.emptyCommentCard {
+    display: none;
+}
+
 .commentCard {
     width: 70vw;
     padding: 0 5vw;
