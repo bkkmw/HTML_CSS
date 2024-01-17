@@ -322,7 +322,6 @@ header h1 strong {
 }
 
 .commentCard p {
-    /* width: 380px; */
     text-overflow: clip;
     font-weight: 400;
     line-height: 150%;
@@ -330,7 +329,6 @@ header h1 strong {
 }
 
 .commentCard h4 {
-    width: 380px;
     font-weight: 600;
     margin-top: 0;  
 }
