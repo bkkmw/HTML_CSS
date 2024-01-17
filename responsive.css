@@ -144,6 +144,57 @@ header h1 strong {
 
 .projectCardLeft a {}
 
+/* 24 14 12 */
+.commentList {
+    padding: 60px 0px;
+}
+
+.commentList h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.commentCardScroll {
+    width: 100vw;
+    flex-direction: column;
+    overflow-x: unset;
+    justify-content: center;
+}
+
+.commentCard {
+    width: 70vw;
+    padding: 0 5vw;
+    align-self: center;
+}
+
+.commentCard p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.commentCard h4 {
+    font-size: 12px;
+    color: #1866AF;
+    text-align: right;
+}
+
+.ambition h2 {
+    font-size: 24px;
+}
+
+footer {
+    flex-direction: column-reverse;
+}
+
+.footerLinks a {
+    margin: 0 10px;
+}
+
+.footerImg {
+    width: 30px;
+    height: 30px;
+}
+
 .fixedBtn {
     display: none;
 }
