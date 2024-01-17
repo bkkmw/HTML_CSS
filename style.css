@@ -278,6 +278,112 @@ header h1 strong {
     border-radius: 16px;
 }
 
+.commentList {
+    padding: 80px 0px 120px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-family: "Pretendard";
+    color: #403930;
+}
+
+.commentList h2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.commentCardScroll {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    /* overflow-x: hidden; */
+}
+
+.commentCardScroll::-webkit-scrollbar {
+    display: none;
+}
+
+.commentCard {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    padding: 0 39px;
+    /* border: solid 1px black; */
+    border-radius: 10px;
+    background: #FAFAFA;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+    margin: 15px 40px;
+
+    font-size: 20px;
+}
+
+.commentCard p {
+    /* width: 380px; */
+    text-overflow: clip;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 20px;
+}
+
+.commentCard h4 {
+    width: 380px;
+    font-weight: 600;
+    margin-top: 0;  
+}
+
+.ambition {
+    background-color: #E6EEFF;;
+    padding: 64px 0;
+
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ambition h2 {
+    width: 70%;
+    align-self: stretch;
+    color: #403930;
+    font-family: Pretendard;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 60px */
+    letter-spacing: -0.96px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 53px auto;
+
+}
+.footerLinks {
+    text-decoration: none;
+    display: flex;
+}
+.footerLinks a {
+    margin: 0 17px;
+}
+.footerImg {
+    width: 36px;
+    height: 36px;
+}
+footer p {
+    color: var(--Dark, #21243D);
+    text-align: center;
+    font-family: Heebo;
+    font-size: 14px;
+    font-weight: 400;
+}
+
 
 /* @media (max-width: 768px) {
     .fixedBtn {
