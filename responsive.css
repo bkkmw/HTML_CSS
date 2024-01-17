@@ -1,8 +1,10 @@
 nav {
+    display: flex;
     height: 60px;
     padding: 0px 24px;
     gap: 32px;
     align-self: stretch;
+    justify-content: center;
 }
 
 .navItem {
