@@ -217,6 +217,12 @@ header h1 strong {
     text-decoration: none;
 }
 
+/* @media (max-width: 768px) {
+    .fixedBtn {
+        display: none;
+    }
+} */
+
 /* animation */
 @keyframes fadeIn {
     from {

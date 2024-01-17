@@ -1,0 +1,105 @@
+nav {
+    height: 60px;
+    padding: 0px 24px;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.navItem {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+header {
+    width: 90vw;
+    padding: 30px 0 30px 10vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.headerLeft {
+    width: 80vw;
+}
+
+.headerRight {
+    display: none
+}
+
+.badge {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #333;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 38.4px */
+    letter-spacing: -0.64px;
+    margin-bottom: 30px;
+}
+
+header h1 strong {
+    max-width: 230px;
+}
+
+.headerBtn {
+    width: 25vw;
+    padding: 16px 5vw;
+
+    font-family: Pretendard;
+    font-size: 14px;    
+}
+
+.introduction {
+    padding: 60px 24px;
+}
+
+.introduction h2 {
+    font-size: 18px;
+}
+
+.introduction p {
+    font-size: 14px;
+    /* white-space: initial; */
+    text-wrap: pretty;
+}
+
+.introduction img {
+    width: 20vw;
+    height: auto;
+    top: 3vh;
+    right: 15vw;
+}
+
+.techStack {
+    padding: 60px 24px;
+}
+
+.techStack h2 {
+    font-size: 24px;
+}
+
+.techStack p {
+    font-size: 14px;
+    margin-bottom: 32px;
+}
+
+.techImgs {
+    margin-top: 0px;
+}
+
+.techImg {
+    width: 20vw;
+    height: auto;
+    padding: 0;
+    margin: 24px 0;
+}
+
+
+.fixedBtn {
+    display: none;
+}
