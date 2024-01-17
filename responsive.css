@@ -101,6 +101,42 @@ header h1 strong {
     margin: 24px 0;
 }
 
+.projectList {
+    margin: 60px 24px;
+    padding: 0px;
+    
+}
+
+.projectCard {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.projectCardRight {
+    width: 80vw;
+}
+
+.projectImg {
+    width: 30%;
+    height: fit-content;
+    margin: 24px 0 12px 0;
+}
+
+.projectCardLeft {
+    align-self: flex-start;
+    padding: 10px 3vw;
+    width: 80vw;
+}
+
+.projectCardLeft h2 {}
+
+.projectCardLeft h6 {
+    margin-bottom: 10px;
+}
+
+.projectCardLeft p {}
+
+.projectCardLeft a {}
 
 .fixedBtn {
     display: none;
