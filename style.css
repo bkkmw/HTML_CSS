@@ -275,6 +275,7 @@ header h1 strong {
     height: 328px;
     flex-shrink: 0;
     margin: 36px 0px;
+    border-radius: 16px;
 }
 
 
