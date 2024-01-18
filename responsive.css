@@ -67,7 +67,7 @@ header h1 strong {
 .introduction p {
     font-size: 14px;
     /* white-space: initial; */
-    text-wrap: pretty;
+    text-wrap: pretty !important;
 }
 
 .introduction img {
