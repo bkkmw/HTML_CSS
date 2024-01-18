@@ -118,7 +118,7 @@ header h1 strong {
 
 .projectImg {
     width: 30%;
-    height: fit-content;
+    height: auto;
     margin: 24px 0 12px 0;
 }
 
